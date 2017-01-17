@@ -1,0 +1,37 @@
+.maindiv {
+	width: 100%;
+	text-align: center;
+}
+.grad1 {
+	width: 80px;
+	height: 80px;
+	background: -moz-linear-gradient(left, red, green);
+	text-align: center;
+	display: inline-block;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.grad2 {
+	width: 80px;
+	height: 80px;
+	background-image: -moz-radial-gradient(40px 0px,circle, red, yellow, green);
+	text-align: center;
+	display: inline-block;
+	margin-left: 15px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.grad3 {
+	width: 80px;
+	height: 80px;
+	background: -moz-radial-gradient(top, red, yellow, green);
+	text-align: center;
+	margin-left: 15px;
+	display: inline-block;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+p {
+	color: black;
+	line-height: 50px;
+}
